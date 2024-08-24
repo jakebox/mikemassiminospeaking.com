@@ -1,7 +1,19 @@
+import Hero from "./components/Hero";
+import CompaniesScroller from "./components/CompaniesScroller";
+import Quote from "./components/Quote";
+import Navbar from "./components/Navbar";
+import Summary from "./components/Summary";
+import Videos from "./components/Videos";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div className="bg-slate-50">
+      <Hero />
+      <CompaniesScroller />
+      <Quote />
+      <Navbar />
+      <Summary />
+      <Videos />
+    </div>
+  );
 }
