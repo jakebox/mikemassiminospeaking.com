@@ -26,7 +26,7 @@ const sections = [
 function Navbar() {
   return (
     <div className="bg-slate-900 text-white sticky top-[-0.5px]">
-      <ul className="flex gap-6 justify-center items-center h-14 text-xl 2xl:text-2xl">
+      <ul className="flex gap-3 md:gap-6 justify-center items-center text-center h-14 text-sm md:text-xl 2xl:text-2xl">
         {sections.map((s, i) => {
           return (
             <li key={i}>

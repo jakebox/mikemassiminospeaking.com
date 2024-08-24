@@ -51,7 +51,7 @@ function HeaderImages() {
 
 function SpeaksAbout() {
   return (
-    <ul className="leading-relaxed md:leading-[1.5em] text-xl md:text-3xl inline-block">
+    <ul className="leading-relaxed md:leading-[1.5em] text-xl md:text-3xl inline-block 2xl:mb-4">
       {speaksAbout.map((m, i) => {
         return (
           <li key={i} className="ml-2 text-gray-700 inline-block font-[380]">
@@ -81,20 +81,22 @@ function Taglines() {
 export default function Hero() {
   return (
     <div className="text-center text-white">
-      <div className="min-h-12 md:min-h-20 lg:min-h-24 xl:min-h-28 bg-slate-100">
+      <div className="min-h-14 md:min-h-20 lg:min-h-24 xl:min-h-28 2xl:min-h-32 bg-slate-100">
         <div className="flex justify-center items-center absolute insert-x-0 top-0">
-          <img src="src/assets/images/header2.png" className="w-3/5 md:w-2/5" />
+          <img src="src/assets/images/header2.png" className="w-2/3 md:w-2/5" />
         </div>
       </div>
       {/* <h1 className="text-5xl md:text-7xl font-extrabold uppercase">Mike Massimino</h1> */}
       <div className="bg-gradient-to-b from-black via-indigo-900 to-blue-900 py-9">
         <HeaderImages />
-        <div className="font-[420] text-xl md:text-3xl px-6 mt-6 text-slate-200">
+        <div className="font-[420] text-xl md:text-3xl px-6 mt-6 text-slate-100">
           <Taglines />
         </div>
       </div>
       <div className="bg-slate-50 text-blue-700 py-7 px-5">
-        <h2 className="font-exo text-3xl md:text-[48px] font-semibold uppercase mb-7">Speaks About</h2>
+        <h2 className="font-exo tracking-wide text-4xl md:text-[48px] font-semibold uppercase mb-7 2xl:mt-3 2xl:mb-9">
+          Speaks About
+        </h2>
         <SpeaksAbout />
       </div>
     </div>

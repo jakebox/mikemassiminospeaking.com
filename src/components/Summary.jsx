@@ -7,16 +7,16 @@ const summaryText = [
 
 function Summary() {
   return (
-    <div className="mx-16 mb-8 pt-6">
+    <div className="pt-4 pb-4 md:pt-10 md:pb-10 mx-5 md:mx-16 xl:mx-24 2xl:mx-36">
       <h2 className="font-exo text-4xl md:text-[48px] text-blue-700 font-semibold mb-6 mt-2 uppercase" id="summary">
         Summary
       </h2>
-      <div className="md:flex gap-6 lg:items-center">
+      <div className="md:flex gap-6">
         <div className="">
           <p className="text-lg leading-relaxed mb-4">{summaryText[0]}</p>
           <p className="text-lg leading-relaxed">{summaryText[1]}</p>
         </div>
-        <div className="md:flex-none min-w-32 mt-4 md:mt-0">
+        <div className="md:flex-none min-w-32 mt-4 md:mt-0 mb-4 md:mb-0">
           <img
             src="src/assets/images/Massimino-Credit-Jeffrey-Schifman-for-Columbia-Engineering.jpg"
             className="w-auto h-[300px]"
