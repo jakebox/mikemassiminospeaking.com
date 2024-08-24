@@ -8,7 +8,7 @@ const summaryText = [
 function Summary() {
   return (
     <div className="mx-16 mb-8 pt-6">
-      <h2 className="text-4xl font-bold mb-6 uppercase" id="summary">
+      <h2 className="font-exo text-4xl md:text-[48px] text-blue-700 font-semibold mb-6 mt-2 uppercase" id="summary">
         Summary
       </h2>
       <div className="md:flex gap-6 lg:items-center">

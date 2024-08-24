@@ -45,9 +45,9 @@ function Videos() {
   return (
     <div className="bg-gradient-to-r from-[#64617D] to-[#2F5296]">
       <div className="mx-16 mb-12 pt-5 pb-8 text-center text-white">
-        <h2 className="text-4xl font-semibold mb-2 uppercase" id="videos">Mike Massimino Videos</h2>
+        <h2 className="font-exo text-5xl font-semibold mb-3 uppercase" id="videos">Mike Massimino Videos</h2>
         <h3 className="text-2xl italic mb-6">Get a taste of what Mike Massimino brings to the stage</h3>
-        <div className="grid grid-cols-3 justify-items-center gap-y-3 gap-x-12">
+        <div className="grid grid-cols-3 justify-items-center gap-y-3 gap-x-12 2xl:px-36">
           <VideoCard video={videos[0]} />
           <VideoCard video={videos[1]} />
           <VideoCard video={videos[2]} />

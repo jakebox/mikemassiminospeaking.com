@@ -24,7 +24,7 @@ const speaksAbout = [
 
 function HeaderImages() {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-center items-center py-8">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-center items-center">
       <img
         src="src/assets/images/in_space/sts109-328-018_orig.jpg"
         className="w-full h-48 lg:h-64 object-cover object-center rounded-lg shadow-md"
@@ -42,7 +42,7 @@ function HeaderImages() {
       />
       <img
         src="src/assets/images/in_space/S109E5386_orig.jpg"
-        className="w-full h-48 lg:h-64 object-cover object-center rounded-lg shadow-md"
+        className="w-full h-48 lg:h-64 object-cover object-top rounded-lg shadow-md"
         alt="Space Image 4"
       />
     </div>
@@ -81,20 +81,20 @@ function Taglines() {
 export default function Hero() {
   return (
     <div className="text-center text-white">
-      <div className="min-h-28 lg:min-h-32 bg-slate-100">
+      <div className="min-h-12 md:min-h-20 lg:min-h-24 xl:min-h-28 bg-slate-100">
         <div className="flex justify-center items-center absolute insert-x-0 top-0">
-          <img src="src/assets/images/header2.png" className="md:w-2/5" />
+          <img src="src/assets/images/header2.png" className="w-3/5 md:w-2/5" />
         </div>
       </div>
       {/* <h1 className="text-5xl md:text-7xl font-extrabold uppercase">Mike Massimino</h1> */}
-      <div className="bg-gradient-to-b from-black via-indigo-900 to-blue-900 py-10">
+      <div className="bg-gradient-to-b from-black via-indigo-900 to-blue-900 py-9">
         <HeaderImages />
         <div className="font-[420] text-xl md:text-3xl px-6 mt-6 text-slate-200">
           <Taglines />
         </div>
       </div>
-      <div className="bg-slate-50 text-blue-700 py-10 px-5">
-        <h2 className="text-3xl md:text-[40px] font-semibold uppercase mb-4">Speaks About</h2>
+      <div className="bg-slate-50 text-blue-700 py-7 px-5">
+        <h2 className="font-exo text-3xl md:text-[48px] font-semibold uppercase mb-7">Speaks About</h2>
         <SpeaksAbout />
       </div>
     </div>
