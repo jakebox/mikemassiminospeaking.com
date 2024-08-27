@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
 import Summary from "./components/Summary";
 import Videos from "./components/Videos";
 import SpeechDescriptions from "./components/SpeechDescriptions";
+import Testimonials from "./components/Testimonials";
+import FeaturedMedia from "./components/FeaturedMedia";
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ export default function App() {
       <Summary />
       <Videos />
       <SpeechDescriptions />
+      <FeaturedMedia />
+      <Testimonials />
     </div>
   );
 }
