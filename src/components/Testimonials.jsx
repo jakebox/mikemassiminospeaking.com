@@ -9,7 +9,7 @@ function TestimonialSection({ testimonial }) {
         <img src={testimonial.image} className="object-contain h-full w-full" alt={testimonial.author} />
       </div>
       <div className="flex-auto">
-        <p className="text-lg italic">{testimonial.quote}</p>
+        <p className="text-lg italic" dangerouslySetInnerHTML={{ __html: testimonial.quote }}></p>
         <h3 className="mt-4 text-xl">— {testimonial.author}</h3>
       </div>
     </div>
