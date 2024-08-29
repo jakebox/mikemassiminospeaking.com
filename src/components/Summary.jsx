@@ -18,7 +18,7 @@ function Summary() {
         </div>
         <div className="md:flex-none min-w-32 mt-4 md:mt-0 mb-4 md:mb-0">
           <img
-            src="src/assets/images/Massimino-Credit-Jeffrey-Schifman-for-Columbia-Engineering.jpg"
+            src="/assets/images/Massimino-Credit-Jeffrey-Schifman-for-Columbia-Engineering.jpg"
             className="w-auto h-[300px]"
           />
         </div>

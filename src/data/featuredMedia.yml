@@ -1,16 +1,16 @@
 newspaper_cards:
   - title: "Mike Massimino in the Wall Street Journal"
     link: "https://www.wsj.com/science/space-astronomy/an-astronaut-with-bad-eyesight-and-a-fear-of-heights-bc226bf3?st=q2kxl1nnnv8wbem&reflink=desktopwebshare_permalink"
-    image: "/src/assets/images/print_media/wsj.png"
+    image: "/assets/images/print_media/wsj.png"
 
   - title: "The New York Times: How to Savor Like Like an Astronaut"
     link: "https://www.nytimes.com/2024/02/02/well/live/life-gratitude-massimino.html"
-    image: "/src/assets/images/print_media/nyt.png"
+    image: "/assets/images/print_media/nyt.png"
 
   - title: "Fortune Magazine: This astronaut was rejected by NASA three times. Here are his secrets to perseverance"
     link: "https://fortune.com/well/article/astronaut-rejected-nasa-perseverance-mike-massimino/"
-    image: "/src/assets/images/print_media/fortune.png"
+    image: "/assets/images/print_media/fortune.png"
 
   - title: "Forbes: An Astronaut's Guide To Communication Skills Training"
     link: "https://www.forbes.com/sites/carminegallo/2023/12/18/an-astronauts-guide-to-communication-skills-training/?sh=5920abd33c56"
-    image: "src/assets/images/print_media/forbes.png"
+    image: "/assets/images/print_media/forbes.png"
