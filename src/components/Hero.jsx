@@ -26,22 +26,22 @@ function HeaderImages() {
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-center items-center">
       <img
-        src="/assets/images/in_space/sts109-328-018_orig.jpg"
+        src="assets/images/in_space/sts109-328-018_orig.jpg"
         className="w-full h-48 lg:h-64 object-cover object-center rounded-lg shadow-md"
         alt="Space Image 1"
       />
       <img
-        src="/assets/images/Massimino-Credit-Jeffrey-Schifman-for-Columbia-Engineering.jpg"
+        src="assets/images/Massimino-Credit-Jeffrey-Schifman-for-Columbia-Engineering.jpg"
         className="w-full h-48 lg:h-64 object-cover object-top rounded-lg shadow-md"
         alt="Space Image 2"
       />
       <img
-        src="/assets/images/in_space/s125e009381_orig.jpg"
+        src="assets/images/in_space/s125e009381_orig.jpg"
         className="w-full h-48 lg:h-64 object-cover object-bottom rounded-lg shadow-md"
         alt="Space Image 3"
       />
       <img
-        src="/assets/images/in_space/S109E5386_orig.jpg"
+        src="assets/images/in_space/S109E5386_orig.jpg"
         className="w-full h-48 lg:h-64 object-cover object-top rounded-lg shadow-md"
         alt="Space Image 4"
       />
@@ -83,7 +83,7 @@ export default function Hero() {
     <div className="text-center text-white">
       <div className="min-h-14 md:min-h-20 lg:min-h-24 xl:min-h-28 2xl:min-h-32 bg-slate-100">
         <div className="flex justify-center items-center absolute insert-x-0 top-0">
-          <img src="/assets/images/header2.png" className="w-2/3 md:w-2/5" />
+          <img src="assets/images/header2.png" className="w-2/3 md:w-2/5" />
         </div>
       </div>
       {/* <h1 className="text-5xl md:text-7xl font-extrabold uppercase">Mike Massimino</h1> */}

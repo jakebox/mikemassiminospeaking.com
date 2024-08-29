@@ -6,5 +6,4 @@ import ViteYaml from '@modyfi/vite-plugin-yaml';
 export default defineConfig({
   plugins: [react(), ViteYaml()],
   base: "/mikemassiminospeaking.com/",
-  publicDir: "public",
 });

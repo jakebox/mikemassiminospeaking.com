@@ -3,27 +3,27 @@ import React from "react";
 const videos = [
   {
     name: "Intro Video for Your Event",
-    image: "src/assets/images/hero/mike-massimino.jpg",
+    image: "assets/images/hero/mike-massimino.jpg",
     url: "https://player.vimeo.com/video/334527924",
   },
   {
     name: "Recognizing the Passion in Your Work",
-    image: "src/assets/images/hero/mike-massimino.jpg",
+    image: "assets/images/hero/mike-massimino.jpg",
     url: "https://player.vimeo.com/video/673766358",
   },
   {
     name: "Persistence when Pursuing a Goal",
-    image: "src/assets/images/hero/mike-massimino.jpg",
+    image: "assets/images/hero/mike-massimino.jpg",
     url: "https://player.vimeo.com/video/673758300",
   },
   {
     name: "Resilience in the Face of Adversity",
-    image: "src/assets/images/hero/mike-massimino.jpg",
+    image: "assets/images/hero/mike-massimino.jpg",
     url: "https://player.vimeo.com/video/996710486",
   },
   {
     name: "Accepting Organizational & Technological Change",
-    image: "src/assets/images/hero/mike-massimino.jpg",
+    image: "assets/images/hero/mike-massimino.jpg",
     url: "https://player.vimeo.com/video/998000697",
   },
 ];

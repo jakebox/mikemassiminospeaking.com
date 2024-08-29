@@ -4,7 +4,7 @@
       a lot of others. We have received extremely good feedback from participants, unsolicited, around his story and message.
       I think it was a home run or a perfect lift off!“
   author: 3M Virtual Event
-  image: "/assets/images/corporate/3m.jpg"
+  image: "assets/images/corporate/3m.jpg"
 
 # - quote:
 #     “I have been receiving messages all morning about your presentation, and how truly inspirational it was.
@@ -16,14 +16,14 @@
     “As anticipated, you delivered a talk that was spot on!  The comments have all been on how relevant your content
     was to our business.  Thanks for your prep and tremendous message!”
   author: Terumo Aortic Virtual Event
-  image: "/assets/images/corporate/terumo.png"
+  image: "assets/images/corporate/terumo.png"
 
 - quote:
     “I sincerely appreciate the obvious thoughtfulness and effort to incorporate all the points we discussed
     the other day.  I know this is going to be a big hit at the conference.  I can’t think of a better message to
     close our meeting. Thanks for putting this together so quickly on what I know was very short notice.”
   author:  National Council for Air and Stream Improvement
-  image: "/assets/images/corporate/ncasi.png"
+  image: "assets/images/corporate/ncasi.png"
 
 # - quote:
 #     “This was just truly amazing! Mike’s talk was truly inspiring and so motivating! Everyone loved it!”
@@ -35,7 +35,7 @@
     “Thank You on behalf of all my DuPont colleagues who created, developed, and hosted the Emerging Leaders Conference.
     Your professionalism, sincerity, heartfelt connection with our emerging leaders resonated beyond belief.”
   author: DuPont
-  image: "/assets/images/corporate/dupont.png"
+  image: "assets/images/corporate/dupont.png"
 
 
 # - quote:
@@ -65,7 +65,7 @@
     after his talk. He is truly fabulous.  We’ll certainly recommend him to other groups within UnitedHealth Group.
     We couldn’t have had a better motivator for our team.”
   author: United Healthcare
-  image: "/assets/images/corporate/united.png"
+  image: "assets/images/corporate/united.png"
 
 - quote:
     “Mike was a hit and made everyone's day. His presentation was really well done and set a great, positive and fun
@@ -74,27 +74,27 @@
     <br/><br/>
     We absolutely loved having him at Zoomtopia.”
   author: Zoom
-  image: "/assets/images/corporate/zoom.png"
+  image: "assets/images/corporate/zoom.png"
 
 - quote:
     “We can’t thank you enough for your inspiring kick off presentation. You set just the right tone for our meeting and
     inspired our guests to create innovative approaches to solving some of our thorniest business issues.
     The meeting was a rousing success and you played a big part teeing it up.“
   author: Zurich North America
-  image: "/assets/images/corporate/zurich.png"
+  image: "assets/images/corporate/zurich.png"
 
 - quote:
     “We have gotten an incredible amount of positive feedback about your talk, and to say you delivered would be
     a complete understatement.  Thank you for helping to inspire my team to be at their best with this
     amazing advancement for myeloma patients...for helping Janssen Oncology to DREAM BIG and GO FAR.“
   author: Janssen Oncology
-  image: "/assets/images/corporate/janssen.png"
+  image: "assets/images/corporate/janssen.png"
 
 - quote:
     “Just wanted to take a minute and say thank you for your presentation yesterday. I have had numerous people
     stop me and tell me how much they loved your story – how your message really hit home with our transformation.”
   author: Cook Medical
-  image: "/assets/images/corporate/cook.png"
+  image: "assets/images/corporate/cook.png"
 
 - quote:
     “I had the pleasure of hiring Mike to be our closing guest speaker at our annual user summit in Houston.
@@ -106,7 +106,7 @@
     (roughly 1300 people). Also, afterwards, Mike signed his books for attendees and we estimate that 500+
     were in line to get a book signed. I would HIGHLY recommend Mike to anyone who needs a closing guest speaker.”
   author: Acumatica
-  image: "/assets/images/corporate/acumatica.png"
+  image: "assets/images/corporate/acumatica.png"
 
 - quote:
     “I wanted to thank you for your contribution to our sales meeting… your talk was the highlight of the meeting for
@@ -118,7 +118,7 @@
     The message you delivered – the tone of never giving up, team culture, perseverance and overcoming challenges -
     still resonates this week in conversations I have had with people.”
   author: Cook Vascular Programs
-  image: "/assets/images/corporate/cook.png"
+  image: "assets/images/corporate/cook.png"
 
 
 - quote:
@@ -126,7 +126,7 @@
     focus on our new aspiration and goal. Your determination has encouraged us to think differently and be more
     courageous in our pursuits to impact society.”
   author: Pfizer
-  image: "/assets/images/corporate/pfizer.png"
+  image: "assets/images/corporate/pfizer.png"
 
 # - quote:
 #     “On behalf of the entire marketing leadership team THANK YOU once again for joining us for the seminar and sharing
@@ -199,7 +199,7 @@
     so much, not just about resilience, it was like a masterclass in leadership, humility and presenting all
     rolled into one enthralling session.“
   author: Roche Pharma
-  image: "/assets/images/corporate/roche.png"
+  image: "assets/images/corporate/roche.png"
 
 # - quote:
 #     “Mike was a great speaker and communicated a powerful message in perseverance!“
@@ -220,4 +220,4 @@
     rejections. A lot to learn and ponder. Success doesn't come at first attempt. Michael Massimino - Respect!!! Thanks
     team Virtusa for organizing the event.“
   author: Sr. Director Client Services @ Google
-  image: "/assets/images/corporate/google.jpg"
+  image: "assets/images/corporate/google.jpg"
