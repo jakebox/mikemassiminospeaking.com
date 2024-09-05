@@ -14,3 +14,28 @@ newspaper_cards:
   - title: "Forbes: An Astronaut's Guide To Communication Skills Training"
     link: "https://www.forbes.com/sites/carminegallo/2023/12/18/an-astronauts-guide-to-communication-skills-training/?sh=5920abd33c56"
     image: "assets/images/print_media/forbes.png"
+
+book_cards:
+  - title: "Spaceman: An Astronaut's Unlikely Journey to Unlock the Secrets of the Universe"
+    link: "https://www.porchlightbooks.com/product/spaceman-an-astronauts-unlikely-journey-to-unlock-the-secrets-of-the-universe--mike-massimino?variationCode=9781101903544"
+    image: "assets/images/books/Spaceman hardcover.jpg"
+  - title: "Spaceman (Adapted for Young Readers): The True Story of a Young Boy's Journey to Becoming an Astronaut"
+    link: "https://www.porchlightbooks.com/product/spaceman-adapted-for-young-readers-the-true-story-of-a-young-boys-journey-to-becoming-an-astrona--mike-massimino/isbn/9780593120866"
+    image: "assets/images/books/SPACEMAN (Adapted for Young Readers)_cover (2).jpg"
+  - title: "Moonshot: A NASA Astronaut’s Guide to Achieving the Impossible"
+    link: "https://www.porchlightbooks.com/product/moonshot-a-nasa-astronauts-guide-to-achieving-the-impossible--mike-massimino/isbn/9780306832642"
+    image: "assets/images/books/Moonshot Cover.jpg"
+
+more_content:
+  - bullet: "Mike's Media Highlights (David Letterman, ABC with David Muir, MSNBC with Brian Williams, Fox, Wired, & more)"
+    link: "https://vimeo.com/392017153"
+  - bullet: "Featured Segment - Netflix’s Worn Stories"
+    link: "https://vimeo.com/648871234?share=copy"
+  - bullet: "Life & Leadership Lessons From NASA Good Morning America"
+    link: "https://vimeo.com/902420368"
+  - bullet: "The Daily Show"
+    link: "https://vimeo.com/894557041?share=copy"
+  - bullet: "The Late Show with David Letterman"
+    link: "https://vimeo.com/817795347?share=copy"
+  - bullet: "NASA - Mike Massimino Becomes the First to ‘Tweet’ From Space"
+    link: "https://www.nasa.gov/missions/space-shuttle/sts-125/mike-massimino-becomes-the-first-to-tweet-from-space/"
