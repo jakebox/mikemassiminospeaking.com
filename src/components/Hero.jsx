@@ -26,24 +26,24 @@ function HeaderImages() {
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-center items-center">
       <img
-        src="assets/images/in_space/sts109-328-018_orig.jpg"
-        className="w-full h-48 lg:h-64 object-cover object-center rounded-lg shadow-md"
-        alt="Space Image 1"
-      />
-      <img
-        src="assets/images/Massimino-Credit-Jeffrey-Schifman-for-Columbia-Engineering.jpg"
-        className="w-full h-48 lg:h-64 object-cover object-top rounded-lg shadow-md"
+        src="assets/images/in_space/S109E5386_trimmed.jpg"
+        className="w-full h-48 lg:h-64 object-cover rounded-lg shadow-md hover:scale-110"
         alt="Space Image 2"
       />
       <img
-        src="assets/images/in_space/s125e009381_orig.jpg"
-        className="w-full h-48 lg:h-64 object-cover object-bottom rounded-lg shadow-md"
-        alt="Space Image 3"
+        src="assets/images/in_space/sts109-328-018_orig.jpg"
+        className="w-full h-48 lg:h-64 object-cover object-center rounded-lg shadow-md hover:scale-110"
+        alt="Space Image 1"
       />
       <img
-        src="assets/images/in_space/S109E5386_orig.jpg"
-        className="w-full h-48 lg:h-64 object-cover object-top rounded-lg shadow-md"
+        src="assets/images/speaking_1.jpg"
+        className="w-full h-48 lg:h-64 object-cover object-top rounded-lg shadow-md hover:scale-110"
         alt="Space Image 4"
+      />
+      <img
+        src="assets/images/in_space/s125e009381_orig.jpg"
+        className="w-full h-48 lg:h-64 object-cover object-bottom rounded-lg shadow-md hover:scale-110"
+        alt="Space Image 3"
       />
     </div>
   );
