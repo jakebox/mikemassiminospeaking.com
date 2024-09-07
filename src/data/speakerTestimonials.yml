@@ -1,223 +1,146 @@
-- quote:
-      “The session went really well! We had almost 300 people from around the world tune in live for Mike's presentation.
-      He told a great story and wove in messages around not giving up on your dreams, teamwork, working in isolation, and
-      a lot of others. We have received extremely good feedback from participants, unsolicited, around his story and message.
-      I think it was a home run or a perfect lift off!“
-  author: 3M Virtual Event
-  image: "assets/images/corporate/3m.jpg"
+testimonials:
+  - company: "Kindle Communications"
+    image: "assets/images/corporate/kindle.png"
+    quotes:
+      - quote: "It went absolutely amazing! He did a great job and the audience gave him a standing ovation. He is wonderful and we would definitely love to have him as a keynote speaker again!"
+        author: "Associate Producer at Kindle Communications"
 
-# - quote:
-#     “I have been receiving messages all morning about your presentation, and how truly inspirational it was.
-#     The team is on cloud nine right now.”
-#   author: Labster Virtual Event
-#   image: ""
+  - company: "Pfizer"
+    image: "assets/images/corporate/pfizer.png"
+    quotes:
+      - quote: "Our leaders were inspired by your story and I believe walked away with a renewed sense of purpose and ready to focus on our new aspiration and goal. Your determination has encouraged us to think differently and be more courageous in our pursuits to impact society."
+        author: "CEO, Pfizer"
 
-- quote:
-    “As anticipated, you delivered a talk that was spot on!  The comments have all been on how relevant your content
-    was to our business.  Thanks for your prep and tremendous message!”
-  author: Terumo Aortic Virtual Event
-  image: "assets/images/corporate/terumo.png"
+  - company: "MetTel"
+    image: "assets/images/corporate/mettel.jpg"
+    quotes:
+      - quote: "Mike delivered an inspiring and thought-provoking session titled 'Private Space Travel and the Future of Spaceflight.' The timing couldn't have been more perfect, and the event was nothing short of spectacular! It was a privilege to share this fantastic experience with my amazing MetTel customers, who were equally inspired and moved by Mike's words."
+        author: "Head of Corporate Communications"
 
-- quote:
-    “I sincerely appreciate the obvious thoughtfulness and effort to incorporate all the points we discussed
-    the other day.  I know this is going to be a big hit at the conference.  I can’t think of a better message to
-    close our meeting. Thanks for putting this together so quickly on what I know was very short notice.”
-  author:  National Council for Air and Stream Improvement
-  image: "assets/images/corporate/ncasi.png"
+  - company: "Cority Software"
+    image: "assets/images/corporate/cority.png"
+    quotes:
+      - quote: "Thank you for the most relevant and spellbinding keynote speech I have ever seen; you've inspired everyone today with your determination and life lessons."
+        author: "CEO, Cority Software"
+      - quote: "Thank you so much for an amazing keynote! Everyone is still talking about it. Your session was phenomenal. The best one we’ve ever had by far!!!"
+        author: "Events Manager, Cority"
 
-# - quote:
-#     “This was just truly amazing! Mike’s talk was truly inspiring and so motivating! Everyone loved it!”
-#   author: GitHub
-#   image: ""
+  - company: "Roche Pharmaceuticals"
+    image: "assets/images/corporate/roche.png"
+    quotes:
+      - quote: "Awesome, awe-inspiring, brilliant speaker, incredible man. I learned so much, not just about resilience. It was like a masterclass in leadership, humility, and presenting all rolled into one enthralling session."
+        author: "Organizational Change Management Lead"
 
+  - company: "Rheem"
+    image: "assets/images/corporate/rheem.png"
+    quotes:
+      - quote: "Mike - thanks again for speaking at our meeting today. I can’t tell you how many people have come up to me raving about your talk and reciting some of your stories. For me, I really appreciated not only that you spent a big chunk of the day listening to some of our presentations but also wove them into your own talk to reinforce your key messages. We could not have asked for a better keynote speaker to cap off the day."
+        author: "Director, Marketing & Training"
 
-- quote:
-    “Thank You on behalf of all my DuPont colleagues who created, developed, and hosted the Emerging Leaders Conference.
-    Your professionalism, sincerity, heartfelt connection with our emerging leaders resonated beyond belief.”
-  author: DuPont
-  image: "assets/images/corporate/dupont.png"
+  - company: "Google"
+    image: "assets/images/corporate/google.jpg"
+    quotes:
+      - quote: "Amazing, you had all 300+ of us laughing, crying, and reflecting. A few quick pieces of feedback we got after the 4-hour day of programming… 'Best speaker I've ever heard...and I've been at this company for 10 years' 'Really enjoyed the interview with Mike Massiminno. Absolutely incredible person to hear from' On your favorite part of the day ... 'Mike Massimino 100%'"
+        author: "Senior Director of Client Services"
 
+  - company: "americhem"
+    image: "assets/images/corporate/americhem.png"
+    quotes:
+      - quote: "Your openness and approachability, insightful perspective, and genuineness were valued by everyone in attendance. I cannot underscore enough how much your personal experiences resonated and inspired those on the team about the challenges (and opportunities) we face leading this business."
+        author: "CEO"
 
-# - quote:
-#     “Mike is so inspiring, motivational, and GENUINE!!! His stories are amazing – I could listen to him all day!
-#     It was truly a hit with our audience. Please thank Mike on behalf of the entire team.
-#     I hope we get to work together on another event in the future.”
-#   author: Boston-based Retirement Services Organization Virtual Event
-#   image: ""
+  - company: "Fidelity"
+    image: "assets/images/corporate/fidelity.png"
+    quotes:
+      - quote: "The team is still buzzing about your inspirational and engaging talk. You were a huge hit! We look forward to including you in other events at Fidelity."
+        author: "President, Personal Investing, Fidelity Investments"
 
-# - quote:
-#     “He was really great to work with and just some amazing stories and we’re bummed our clients couldn’t meet
-#     him in person, but we think this is the next best thing. Sort of like him talking to us from space.
-#     Many of his stories are very topical to what we are all going through right now including the quarantine
-#     astronauts go through before going into space and the isolation even in space being disconnected from the world.
-#     The story of teamwork with his fellow astronaut classmates was especially powerful for me—this idea that we win
-#     or lose together. A great reminder that we’re all in this together right now. And I enjoyed his story about
-#     needing to both accept change and anticipate change in the same moment. You have 30 seconds of venting,
-#     ranting, or feeling sorry for yourself—and then you move forward. Because the only constant is change.
-#     Really powerful! Please thank him for us.”
-#   author: Personify Software Virtual Event
-#   image: ""
+  - company: "Janssen"
+    image: "assets/images/corporate/janssen.png"
+    quotes: 
+      - quote: "We have gotten an incredible amount of positive feedback about your talk, and to say you ‘delivered’ would be a complete understatement. Thank you for helping to inspire my team to be at their best, and for helping Janssen Oncology to DREAM BIG and GO FAR."
+        author: "VP Sales & Marketing, Hematology, Janssen"
 
-- quote:
-    “OMG – he was awesome!  Everyone loved him!! He stayed to sign books and I think all 300 people waited in line to
-    have him do so. We extended lunch by 30 minutes so that everyone could have a chance to meet him, get their photos
-    with him, and get their books signed. Mike is so genuine and so personable.  He mingled with everyone before and
-    after his talk. He is truly fabulous.  We’ll certainly recommend him to other groups within UnitedHealth Group.
-    We couldn’t have had a better motivator for our team.”
-  author: United Healthcare
-  image: "assets/images/corporate/united.png"
+  - company: "Orlando Health"
+    image: "assets/images/corporate/orlando.png"
+    quotes:
+      - quote: "We just wanted to say a big thank you for helping inspire our teams yesterday. All of those docs and frontline team members (and executives!) are buzzing with smiles today and repeating your stories. And thank you for taking the extra time to sign books and pose for pics. The messages that you deliver are very applicable to the work we do in acute healthcare."
+        author: "COO, Orlando Health"
 
-- quote:
-    “Mike was a hit and made everyone's day. His presentation was really well done and set a great, positive and fun
-    tone for our event. He was an absolute pleasure to work with. We really appreciate all the time he took to speak
-    and take pictures with our customers. Everyone loved him and his keynote was stellar.
-    <br/><br/>
-    We absolutely loved having him at Zoomtopia.”
-  author: Zoom
-  image: "assets/images/corporate/zoom.png"
+  - company: "Omnicom"
+    image: "assets/images/corporate/omnicom.png"
+    quotes:
+      - quote: "Mike was amazing!! His talk was spot on. His delivery was totally engaging. An absolute delight. The CEOs love him. We love him. We want more of Mass!!"
+        author: "EVP, Global Strategy & Communications"
 
-- quote:
-    “We can’t thank you enough for your inspiring kick off presentation. You set just the right tone for our meeting and
-    inspired our guests to create innovative approaches to solving some of our thorniest business issues.
-    The meeting was a rousing success and you played a big part teeing it up.“
-  author: Zurich North America
-  image: "assets/images/corporate/zurich.png"
+  - company: "United Healthcare"
+    image: "assets/images/corporate/united.png"
+    quotes:
+      - quote: "OMG – he was awesome! Everyone loved him!! He stayed to sign books and I think all 300 people waited in line to have him do so. We extended lunch by 30 minutes so that everyone could have a chance to meet him, get their photos with him, and get their books signed. Mike is so genuine and so personable. He mingled with everyone before and after his talk. He is truly fabulous. We’ll certainly recommend him to other groups within the United Healthcare Group. We couldn’t have had a better motivator for our team."
+        author: "United Healthcare"
 
-- quote:
-    “We have gotten an incredible amount of positive feedback about your talk, and to say you delivered would be
-    a complete understatement.  Thank you for helping to inspire my team to be at their best with this
-    amazing advancement for myeloma patients...for helping Janssen Oncology to DREAM BIG and GO FAR.“
-  author: Janssen Oncology
-  image: "assets/images/corporate/janssen.png"
+  - company: "3M"
+    image: "assets/images/corporate/3m.jpg"
+    quotes:
+      - quote: "The session went really well! We had almost 300 people from around the world tune in live for Mike's presentation. He told a great story and wove in messages around not giving up on your dreams, teamwork, working in isolation, and a lot of others. We have received extremely good feedback from participants, unsolicited, around his story and message. I think it was a home run or a perfect lift off!"
+        author: "Senior Technical Manager, 3M"
 
-- quote:
-    “Just wanted to take a minute and say thank you for your presentation yesterday. I have had numerous people
-    stop me and tell me how much they loved your story – how your message really hit home with our transformation.”
-  author: Cook Medical
-  image: "assets/images/corporate/cook.png"
+  - company: "Wingspire Capital"
+    image: "assets/images/corporate/wingspire.webp"
+    quotes:
+      - quote: "Your talk exceeded our expectations. The substance of what you shared was incredibly interesting – fascinating details, great stories, relevant life experiences – and your demeanor was simply perfect for that setting. You demonstrated high achievement/excellence with no arrogance so it made it all very accessible to the team. <br> Plus, you were funny as heck. Here’s a sign of a good presentation – I’ve been thinking about some of your stories the last few days."
+        author: "Chief Executive Officer"
 
-- quote:
-    “I had the pleasure of hiring Mike to be our closing guest speaker at our annual user summit in Houston.
-    In my role over the years, I have hired countless speakers to close out large user events and I will say that
-    Mike is one of the best that I have ever hired. Not only is he a down to earth person and easy to talk with,
-    but the message he delivers relates to everyone. Normally when you hire an external speaker to close out an event,
-    there is usually a good size drop-off of people who are trying to catch a flight out of town. Not in our case.
-    I looked around the room when Mike started and it was close to being as crowded as day 1 of the event
-    (roughly 1300 people). Also, afterwards, Mike signed his books for attendees and we estimate that 500+
-    were in line to get a book signed. I would HIGHLY recommend Mike to anyone who needs a closing guest speaker.”
-  author: Acumatica
-  image: "assets/images/corporate/acumatica.png"
+  - company: "Gray Robinson"
+    image: "assets/images/corporate/gr.png"
+    quotes:
+      - quote: "Mike was absolutely phenomenal. His presentation was engaging and he hit on every point we discussed in our planning calls. I have had several attendees come up to me to tell me that he is the best speaker they have ever heard. He also spent so much time after his keynote talking to our attendees and taking photos, so I truly appreciate him going the extra mile for us. I am truly not exaggerating when I tell you that he was the highlight of our retreat and every single person I have spoken to has commented on what an outstanding job he did."
+        author: "Events Manager"
 
-- quote:
-    “I wanted to thank you for your contribution to our sales meeting… your talk was the highlight of the meeting for
-    all in attendance. It is always great for me to see an individual like yourself with an incredible
-    resume and unique life experiences who is still incredibly humble and down to earth (pardon the pun).
-    You fit in perfectly with our company values. Please consider yourself an honorary member of the Cook family.
-    <br/><br/>
-    The feedback we got from the work you did at our meeting rated higher than anything we did, and it wasn’t even close.
-    The message you delivered – the tone of never giving up, team culture, perseverance and overcoming challenges -
-    still resonates this week in conversations I have had with people.”
-  author: Cook Vascular Programs
-  image: "assets/images/corporate/cook.png"
+  - company: "Dupont"
+    image: "assets/images/corporate/dupont.png"
+    quotes:
+      - quote: "Thank You on behalf of all my DuPont colleagues who created, developed, and hosted the Emerging Leaders Conference. Your professionalism, sincerity, heartfelt connection with our emerging leaders resonated beyond belief."
+        author: "Senior Producer, Go West Creative Group"
 
+  - company: "Acumatica"
+    image: "assets/images/corporate/acumatica.png"
+    quotes:
+      - quote: "In my role over the years, I have hired countless speakers to close out large user events and I will say that Mike is one of the best that I have ever hired. The message he delivers relates to everyone. Normally when you hire an external speaker to close out an event, there is usually a good size drop-off of people who are trying to catch a flight out of town. Not in our case. I looked around the room when Mike started and it was close to being as crowded as day 1 of the event (roughly 1300 people). Also, afterwards, Mike signed his books for attendees, and we estimate that 500+ were in line to get a book signed. I would HIGHLY recommend Mike to anyone who needs a closing guest speaker."
+        author: "Sr Events Manager, Acumatica"
 
-- quote:
-    “Our leaders were inspired by your story and I believe walked away with a renewed sense of purpose and ready to
-    focus on our new aspiration and goal. Your determination has encouraged us to think differently and be more
-    courageous in our pursuits to impact society.”
-  author: Pfizer
-  image: "assets/images/corporate/pfizer.png"
+  - company: "Zoom"
+    image: "assets/images/corporate/zoom.png"
+    quotes:
+      - quote: "Mike was a hit and made everyone's day. His presentation was really well done and set a great, positive and fun tone for our event. He was an absolute pleasure to work with. We really appreciate all the time he took to speak and take pictures with our customers. Everyone loved him and his keynote was stellar. We absolutely loved having him at Zoomtopia."
+        author: "Strategic Events Lead, Zoom"
 
-# - quote:
-#     “On behalf of the entire marketing leadership team THANK YOU once again for joining us for the seminar and sharing
-#     your amazing story! For our team, your talk was incredibly powerful and inspiring! We have heard so many positive
-#     comments. It gave a lot of meaning to the seminar and I know people will continue using your stories and quotes
-#     for a long time! I personally am also super inspired and looking forward to reading your book.”
-#   author: The LEGO Group
-#   image: ""
+  - company: "HSBC"
+    image: "assets/images/corporate/hsbc.png"
+    quotes:
+      - quote: "We wanted to personally thank you for joining us yesterday. It was truly a pleasure to have you as the keynote speaker for our inaugural client roundtable event. Your anecdotes and engagement with our audience was delightful and set an incredibly positive tone for a very enjoyable dinner. We are sincerely appreciative that you stayed for the entirety of the event and do hope that you enjoyed your time with us. Thank you also for the personalized books, as we are certain that our attendees will take pleasure in reading about your story of resilience in achieving what you had aspired to be at a very young age. Thank you, Mike, for going above and beyond (it was out of this world!)"
+        author: "Director, Securities Financing Sales, HSBC Securities"
 
-# - quote:
-#     “Our company is buzzing about how amazing it was to hear your stories, challenges and successes!”
-#   author: Reliant NRG
-#   image: ""
+  - company: "Terumo Aortic"
+    image: "assets/images/corporate/terumo.png"
+    quotes:
+      - quote: "As anticipated, you delivered a talk that was spot on! The comments have all been on how relevant your content was to our business. Thanks for your prep and tremendous message!"
+        author: "Manager - Business Development, Terumo Aortic"
 
-# - quote:
-#     “Mike Massimino was a great hit at our annual employee kickoff. Mike did an amazing job getting a full understanding
-#     of our company and incorporating it in his speech. He captured the entire audience from beginning to end, and he
-#     was just a perfect fit for the event.
-#     <br/><br/>
-#     You invested time and did your homework to understand the audience, understand our company, what we're trying to
-#     achieve, and you effectively honed in on what you could to assist in that journey. As a result, you connected
-#     immediately and effectively with our employees; your story of focus, persistence and perseverance, success and
-#     failure, and especially teamwork, combined with astonishing photos and videos, created a truly unique and
-#     inspiring experience and motivated our team.”
-#   author: Imprivata
-#   image: ""
+  - company: "NCASI"
+    image: "assets/images/corporate/ncasi.png"
+    quotes:
+      - quote: "I sincerely appreciate the obvious thoughtfulness and effort to incorporate all the points we discussed. I know this is going to be a big hit at the conference. I can’t think of a better message to close our meeting. Thanks for putting this together so quickly on what I know was very short notice."
+        author: "President, NCASI"
 
-# - quote:
-#     “Everyone was thrilled with the meeting, especially your presentation. I have never received so much
-#     positive feedback after one of our All Staff meetings.”
-#   author: VSP Global
+  - company: "Bitsight"
+    image: "assets/images/corporate/bitsight.png"
+    quotes:
+      - quote: "Your presentation, both informative and engaging, delivered with humility and humor, truly captivated our employees and sparked thought-provoking discussions among our team members. Your unique perspective and experiences provided invaluable insights that we believe will help us navigate challenges and opportunities ahead. We appreciate the effort you put into preparing and delivering such a compelling presentation, and we look forward to the possibility of collaborating again in the future."
+        author: "Chief Marketing Officer"
 
-# - quote:
-#     “Your inspiration, passion and down to earth style was nothing short of spectacular.”
-#   author: Commonwealth/McCann
-
-# - quote:
-#     “Mike was great. He did a fantastic job of engaging the audience with his stories and down-to- earth style
-#     (pardon the pun). He hit the mark on our key messages but didn’t beat people over the head with them.
-#     He integrated them seamlessly into his stories. I also appreciated that he hung around and chatted with a number
-#     of our colleagues after his remarks – even if it did nearly cause him to miss his flight. All told, he was a hit.”
-#   author: CVS Caremark
-
-# - quote:
-#     “Your presentation was fantastic and highly rated by our audience. On behalf of USA Rice, and the more than 750
-#     conference attendees, please accept our warmest appreciation for your contribution to the quality
-#     and success of the meeting.”
-#   author: USA Rice
-
-# - quote:
-#     “The team is still buzzing about your inspirational and engaging talk. You were a huge hit!
-#     We look forward to including you in other events at Fidelity.“
-#   author: Fidelity Investments
-
-# - quote:
-#     “We just wanted to say a big thank you for helping inspire our teams yesterday. And thank you for taking the
-#     extra time to sign books and pose for pics. All of those docs and frontline team members (and executives!) are
-#     buzzing with smiles today and repeating your stories. The messages that you deliver are very applicable to the
-#     work we do in acute healthcare.“
-#   author: Orlando Health
-
-# - quote:
-#     “Thank you for the most relevant and spellbinding keynote speech I have ever seen;
-#     you've inspired everyone today with your determination and life lessons. Thank you so much for an amazing keynote!
-#     Everyone is still talking about it. Your session was phenomenal. The best one we’ve ever had by far!!!“
-#   author: Cority Software
-
-- quote:
-    “Michael just did a talk for us at Roche today. Awesome, awe inspiring, brilliant speaker, incredible man. I learned
-    so much, not just about resilience, it was like a masterclass in leadership, humility and presenting all
-    rolled into one enthralling session.“
-  author: Roche Pharma
-  image: "assets/images/corporate/roche.png"
-
-# - quote:
-#     “Mike was a great speaker and communicated a powerful message in perseverance!“
-#   author: Virtusa IT
-
-# - quote:
-#     “Mike, thank you for the great work you did for DuPont today.  We all love the opportunity to work with you and
-#     we all commented that we pick up something new each time we listen to your presentation- so thank you for that as well!“
-#   author: Senior Producer, Go West Creative
-
-# - quote:
-#     “Thank you for delivering such a great presentation. I’ve received so many messages from clients and
-#     colleagues expressing how much they enjoyed it and how inspired they were.“
-#   author: Gartner Enterprise IT
-
-- quote:
-    “It was a pleasure to listen to the inspirational story of Mike's journey and how he kept at it despite multiple
-    rejections. A lot to learn and ponder. Success doesn't come at first attempt. Michael Massimino - Respect!!! Thanks
-    team Virtusa for organizing the event.“
-  author: Sr. Director Client Services @ Google
-  image: "assets/images/corporate/google.jpg"
+  - company: "Zurich"
+    image: "assets/images/corporate/zurich.png"
+    quotes:
+      - quote: "We can’t thank you enough for your inspiring kick off presentation. You set just the right tone for our meeting and inspired our guests to create innovative approaches to solving some of our thorniest businessissues. The meeting was a rousing success and you played a big part teeing it up."
+        author: "Zurich"
