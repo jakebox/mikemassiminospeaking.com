@@ -12,7 +12,7 @@ testimonials:
         author: "CEO, Pfizer"
 
   - company: "MetTel"
-    image: "assets/images/corporate/mettel.jpg"
+    image: "assets/images/corporate/mettel.png"
     quotes:
       - quote: "Mike delivered an inspiring and thought-provoking session titled 'Private Space Travel and the Future of Spaceflight.' The timing couldn't have been more perfect, and the event was nothing short of spectacular! It was a privilege to share this fantastic experience with my amazing MetTel customers, who were equally inspired and moved by Mike's words."
         author: "Head of Corporate Communications"
@@ -38,7 +38,7 @@ testimonials:
         author: "Director, Marketing & Training"
 
   - company: "Google"
-    image: "assets/images/corporate/google.jpg"
+    image: "assets/images/corporate/google.png"
     quotes:
       - quote: "Amazing, you had all 300+ of us laughing, crying, and reflecting. A few quick pieces of feedback we got after the 4-hour day of programming… 'Best speaker I've ever heard...and I've been at this company for 10 years' 'Really enjoyed the interview with Mike Massiminno. Absolutely incredible person to hear from' On your favorite part of the day ... 'Mike Massimino 100%'"
         author: "Senior Director of Client Services"
@@ -80,7 +80,7 @@ testimonials:
         author: "United Healthcare"
 
   - company: "3M"
-    image: "assets/images/corporate/3m.jpg"
+    image: "assets/images/corporate/3m.png"
     quotes:
       - quote: "The session went really well! We had almost 300 people from around the world tune in live for Mike's presentation. He told a great story and wove in messages around not giving up on your dreams, teamwork, working in isolation, and a lot of others. We have received extremely good feedback from participants, unsolicited, around his story and message. I think it was a home run or a perfect lift off!"
         author: "Senior Technical Manager, 3M"

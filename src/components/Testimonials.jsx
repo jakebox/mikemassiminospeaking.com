@@ -4,16 +4,16 @@ import testimonials from "../data/speakerTestimonials.yml";
 
 function TestimonialSection({ testimonial }) {
   return (
-    <div className="md:flex gap-16 my-10 justify-center items-center">
-      <div className="flex justify-center items-center mb-4 md:mb-0 min-w-28 max-w-28 md:min-w-36 md:max-w-40 xl:min-w-40 xl:max-w-48">
+    <div className="md:flex gap-16 justify-center items-center mt-5 mb-3">
+      <div className="flex justify-center items-center mb-4 md:mb-0 min-w-28 max-w-28 md:min-w-40 md:max-w-40 xl:min-w-48 xl:max-w-48">
         <img src={testimonial.image} className="object-contain" />
       </div>
       <div className="flex-auto">
         {testimonial.quotes.map((t, idx) => {
           return (
             <div key={idx}>
-              <p className="mt-3 text-lg italic" dangerouslySetInnerHTML={{ __html: t.quote }}></p>
-              <h3 className="mt-3 mb-7 text-xl">{t.author}</h3>
+              <p className="text-lg italic" dangerouslySetInnerHTML={{ __html: t.quote }}></p>
+              <h3 className="text-xl mt-3 mb-3">{t.author}</h3>
             </div>
           );
         })}
