@@ -19,7 +19,7 @@ function NewspaperCard({ title, link, image }) {
 
 function ContentLink({ bullet, link }) {
   return (
-    <li className="text-md xl:text-lg">
+    <li className="text-lg xl:text-xl xl:mt-2">
       <a href={link} className="underline text-blue-300 hover:text-sky-200">
         {bullet}
       </a>
@@ -31,11 +31,25 @@ function MoreContent() {
   const content = media.more_content;
 
   return (
-    <ul className="list-disc ml-8">
-      {content.map((item, index) => (
-        <ContentLink key={index} bullet={item.bullet} link={item.link} />
-      ))}
-    </ul>
+    <div className="md:flex gap-6 items-start">
+      {/* Left Side: List */}
+      <div className="md:w-2/3">
+        <ul className="list-disc ml-8">
+          {content.map((item, index) => (
+            <ContentLink key={index} bullet={item.bullet} link={item.link} />
+          ))}
+        </ul>
+      </div>
+
+      {/* Right Side: Image */}
+      <div className="md:w-1/3 flex justify-center mt-4 md:mt-0 mb-4 md:mb-0">
+        <img
+          src="assets/images/speaking_2.jpg"
+          className="w-auto h-[300px] object-cover rounded-md shadow-md"
+          alt="Visual Interest"
+        />
+      </div>
+    </div>
   );
 }
 
@@ -114,18 +128,18 @@ function BBT() {
 
 function FeaturedMedia() {
   return (
-    <div class="bg-gradient-to-r from-slate-700 via-indigo-600 to-blue-700 py-12">
+    <div class="bg-gradient-to-r from-slate-700 via-indigo-600 to-blue-600 py-12">
       <div className="mx-5 md:mx-16 xl:mx-24 2xl:mx-48 text-slate-100">
         <h2 className="font-exo text-4xl md:text-[48px] text-slate-100 font-semibold mb-8 mt-2 uppercase" id="summary">
           Featured Media
         </h2>
-        <h2 className="text-3xl font-exo mb-6 ">In Print</h2>
+        <h2 className="text-3xl font-exo mb-8 ">In Print</h2>
         <InPrint />
-        <h2 className="text-3xl font-exo mb-6 mt-8">Books</h2>
+        <h2 className="text-3xl font-exo mb-8 mt-10">Books</h2>
         <Books />
-        <h2 className="text-3xl font-exo mb-6 mt-8">More Content</h2>
+        <h2 className="text-3xl font-exo mb-8 mt-10">More Content</h2>
         <MoreContent />
-        <h2 className="text-3xl font-exo mb-6 mt-8">
+        <h2 className="text-3xl font-exo mb-8 mt-10">
           Recurring role as himself on <span className="italic">The Big Bang Theory</span>
         </h2>
         <BBT />
