@@ -11,18 +11,30 @@ import FeaturedMedia from "./components/FeaturedMedia";
 import { useRef } from "react";
 
 export default function App() {
+  const topRef = useRef(null);
+  const summaryRef = useRef(null);
+  const speakingVideosRef = useRef(null);
+  const speechDescriptionsRef = useRef(null);
   const testimonialsRef = useRef(null);
+  const featuredMediaRef = useRef(null);
 
   return (
     <div className="bg-slate-50">
-      <Hero />
+      <Hero ref={topRef} />
       <CompaniesScroller />
       <Quote />
-      <Navbar testRef={testimonialsRef} />
-      <Summary />
-      <Videos />
-      <SpeechDescriptions />
-      <FeaturedMedia />
+      <Navbar
+        topRef={topRef}
+        summaryRef={summaryRef}
+        speakingVideosRef={speakingVideosRef}
+        speechDescriptionsRef={speechDescriptionsRef}
+        testimonialsRef={testimonialsRef}
+        featuredMediaRef={featuredMediaRef}
+      />
+      <Summary ref={summaryRef} />
+      <Videos ref={speakingVideosRef} />
+      <SpeechDescriptions ref={speechDescriptionsRef} />
+      <FeaturedMedia ref={featuredMediaRef} />
       <Testimonials ref={testimonialsRef} />
     </div>
   );
