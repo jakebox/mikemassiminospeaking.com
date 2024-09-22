@@ -5,7 +5,7 @@ import media from "../data/featuredMedia.yml";
 function NewspaperCard({ title, link, image }) {
   return (
     <div className="flex flex-col justify-between">
-      <h4 className="text-center text-lg font-exo mb-3 italic">
+      <h4 className="text-center text-lg font-exo mb-3 italic hover:text-sky-200">
         <a href={link}>{title}</a>
       </h4>
       <div className="flex items-center justify-center">
@@ -20,7 +20,7 @@ function NewspaperCard({ title, link, image }) {
 function ContentLink({ bullet, link }) {
   return (
     <li className="text-md xl:text-lg">
-      <a href={link} className="underline text-blue-300">
+      <a href={link} className="underline text-blue-300 hover:text-sky-200">
         {bullet}
       </a>
     </li>
@@ -67,6 +67,51 @@ function Books() {
   );
 }
 
+function ClipCard({ title, link, image }) {
+  return (
+    <article className="flex flex-col items-center bg-gray-900 bg-opacity-50 rounded-lg shadow-lg p-4 hover:shadow-xl transition-shadow duration-300 ease-in-out">
+      {/* Title */}
+      <h4 className="text-center text-lg font-exo mb-3 italic">
+        <a href={link} target="_blank" rel="noopener noreferrer" className="text-blue-300 hover:text-sky-200">
+          {title}
+        </a>
+      </h4>
+
+      {/* Image Container */}
+      <div className="relative w-full h-64 2xl:h-72 z-10">
+        <a href={link} target="_blank" rel="noopener noreferrer">
+          {/* Image */}
+          <img src={image} className="w-full h-full object-cover rounded-md" alt={title} />
+
+          {/* Play Button Overlay */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <button className="bg-white text-gray-800 opacity-75 p-3 rounded-full shadow-lg">
+              {/* SVG Play Icon */}
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M3 22v-20l18 10-18 10z" />
+              </svg>
+            </button>
+          </div>
+        </a>
+      </div>
+    </article>
+  );
+}
+
+function BBT() {
+  const bbt = media.bbt;
+
+  return (
+    <div className="text-slate-100 p-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
+        {bbt.map((card) => (
+          <ClipCard key={card.id} title={`The Big Bang Theory: ${card.title}`} link={card.link} image={card.image} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function FeaturedMedia() {
   return (
     <div class="bg-gradient-to-r from-slate-700 via-indigo-600 to-blue-700 py-12">
@@ -77,10 +122,13 @@ function FeaturedMedia() {
         <h2 className="text-3xl font-exo mb-6 ">In Print</h2>
         <InPrint />
         <h2 className="text-3xl font-exo mb-6 mt-8">Books</h2>
-        {/* <h3 className="text-xl text-slate-300 mb-5">Mike is a New York Times best-selling author.</h3> */}
         <Books />
         <h2 className="text-3xl font-exo mb-6 mt-8">More Content</h2>
         <MoreContent />
+        <h2 className="text-3xl font-exo mb-6 mt-8">
+          Recurring role as himself on <span className="italic">The Big Bang Theory</span>
+        </h2>
+        <BBT />
       </div>
     </div>
   );
