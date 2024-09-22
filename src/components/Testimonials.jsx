@@ -28,6 +28,17 @@ const Testimonials = forwardRef((props, ref) => (
     <h2 className="font-exo text-4xl text-blue-700 md:text-[48px] font-semibold mb-8 mt-2 uppercase" id="summary">
       Testimonials
     </h2>
+    <div className="text-xl mt-4">
+      Find a sampling of past audiences{" "}
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-700 hover:text-sky-200"
+        href="documents/past_audiences.pdf"
+      >
+        here
+      </a>.
+    </div>
     <div className="mx-8">
       {testimonials.testimonials.map((t, idx) => {
         return (
@@ -39,7 +50,6 @@ const Testimonials = forwardRef((props, ref) => (
       })}
     </div>
   </div>
-  // </div>
 ));
 
 export default Testimonials;
