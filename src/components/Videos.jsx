@@ -41,9 +41,9 @@ function VideoCard({ video }) {
   );
 }
 
-function Videos() {
+const Videos = React.forwardRef((props, ref) => {
   return (
-    <div className="bg-gradient-to-r from-[#64617D] to-[#2F5296]">
+    <div ref={ref} className="bg-gradient-to-r from-[#64617D] to-[#2F5296]">
       <div className="md:mx-16 mb-12 pt-5 pb-8 text-center text-white">
         {/* Title Section */}
         <h2 className="font-exo text-5xl font-semibold mb-3 uppercase" id="videos">
@@ -61,5 +61,6 @@ function Videos() {
     </div>
   );
 }
+)
 
 export default Videos;

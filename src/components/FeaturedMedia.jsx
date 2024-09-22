@@ -126,9 +126,9 @@ function BBT() {
   );
 }
 
-function FeaturedMedia() {
+const FeaturedMedia = React.forwardRef((props, ref) => {
   return (
-    <div class="bg-gradient-to-r from-slate-700 via-indigo-600 to-blue-600 py-12">
+    <div ref={ref} class="bg-gradient-to-r from-slate-700 via-indigo-600 to-blue-600 py-12">
       <div className="mx-5 md:mx-16 xl:mx-24 2xl:mx-48 text-slate-100">
         <h2 className="font-exo text-4xl md:text-[48px] text-slate-100 font-semibold mb-8 mt-2 uppercase" id="summary">
           Featured Media
@@ -146,6 +146,6 @@ function FeaturedMedia() {
       </div>
     </div>
   );
-}
+});
 
 export default FeaturedMedia;

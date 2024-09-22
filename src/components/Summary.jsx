@@ -5,9 +5,9 @@ const summaryText = [
   "Mike uses humor and his unique storytelling ability to inspire audiences to identify the passion in their work, use teamwork and innovation to solve problems, provide leadership in the face of adversity and change, and never give up when pursuing a goal. Mike has written 3 books including his NY Times Bestselling memoir Spaceman, and his most recent book Moonshot: A NASA Astronaut’s Guide to Achieving the Impossible which distills stories and insights from NASA into an actionable guide for success in business and in life. Mike is clear, “We all have our own personal “moon shots” we’d like to take in life, but as mission control will tell you, doing one big thing really means getting a thousand little things right along the way.”",
 ];
 
-function Summary() {
+const Summary = React.forwardRef((props, ref) => {
   return (
-    <div className="pt-4 pb-4 md:pt-10 md:pb-10 mx-5 md:mx-16 xl:mx-24 2xl:mx-36">
+    <div ref={ref} className="pt-4 pb-4 md:pt-10 md:pb-10 mx-5 md:mx-16 xl:mx-24 2xl:mx-36">
       <h2 className="font-exo text-4xl md:text-[48px] text-blue-700 font-semibold mb-6 mt-2 uppercase" id="summary">
         Summary
       </h2>
@@ -25,6 +25,6 @@ function Summary() {
       </div>
     </div>
   );
-}
+});
 
 export default Summary;

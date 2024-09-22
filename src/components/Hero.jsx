@@ -1,3 +1,5 @@
+import React from "react";
+
 const text = [
   "Former NASA Astronaut",
   "New York Times Bestselling Author",
@@ -78,9 +80,9 @@ function Taglines() {
   );
 }
 
-export default function Hero() {
+const Hero = React.forwardRef((props, ref) => {
   return (
-    <div className="text-center text-white">
+    <div ref={ref} className="text-center text-white">
       <div className="min-h-14 md:min-h-20 lg:min-h-24 xl:min-h-28 2xl:min-h-32 bg-slate-100">
         <div className="flex justify-center items-center absolute insert-x-0 top-0">
           <img src="assets/images/header2.png" className="w-2/3 md:w-2/5" />
@@ -101,4 +103,6 @@ export default function Hero() {
       </div>
     </div>
   );
-}
+})
+
+export default Hero;

@@ -2,9 +2,9 @@ import React from "react";
 
 import speeches from "../data/speeches.yml";
 
-function SpeechDescriptions() {
+const SpeechDescriptions = React.forwardRef((props, ref) => {
   return (
-    <div className="mx-5 md:mx-16 xl:mx-24 2xl:mx-36">
+    <div ref={ref} className="mx-5 md:mx-16 xl:mx-24 2xl:mx-36">
       <h2 className="font-exo text-4xl md:text-[48px] text-blue-700 font-semibold mb-6 mt-2 uppercase" id="summary">
         Speech Descriptions
       </h2>
@@ -26,6 +26,6 @@ function SpeechDescriptions() {
       </div>
     </div>
   );
-}
+});
 
 export default SpeechDescriptions;
