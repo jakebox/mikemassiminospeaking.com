@@ -9,6 +9,7 @@ import Testimonials from "./components/Testimonials";
 import FeaturedMedia from "./components/FeaturedMedia";
 
 import { useRef } from "react";
+import Footer from "./components/Footer";
 
 export default function App() {
   const topRef = useRef(null);
@@ -19,23 +20,27 @@ export default function App() {
   const featuredMediaRef = useRef(null);
 
   return (
-    <div className="bg-slate-50">
-      <Hero ref={topRef} />
-      <CompaniesScroller />
-      <Quote />
-      <Navbar
-        topRef={topRef}
-        summaryRef={summaryRef}
-        speakingVideosRef={speakingVideosRef}
-        speechDescriptionsRef={speechDescriptionsRef}
-        testimonialsRef={testimonialsRef}
-        featuredMediaRef={featuredMediaRef}
-      />
-      <Summary ref={summaryRef} />
-      <Videos ref={speakingVideosRef} />
-      <SpeechDescriptions ref={speechDescriptionsRef} />
-      <FeaturedMedia ref={featuredMediaRef} />
-      <Testimonials ref={testimonialsRef} />
-    </div>
+    <>
+      <div className="bg-slate-50">
+        <Hero ref={topRef} />
+        <CompaniesScroller />
+        <Quote />
+        <Navbar
+          topRef={topRef}
+          summaryRef={summaryRef}
+          speakingVideosRef={speakingVideosRef}
+          speechDescriptionsRef={speechDescriptionsRef}
+          testimonialsRef={testimonialsRef}
+          featuredMediaRef={featuredMediaRef}
+        />
+        <Summary ref={summaryRef} />
+        <Videos ref={speakingVideosRef} />
+        <SpeechDescriptions ref={speechDescriptionsRef} />
+        <FeaturedMedia ref={featuredMediaRef} />
+        <Testimonials ref={testimonialsRef} />
+        <p className="text-black text-center pb-5"><a href='/#'>Back to Top</a></p>
+      </div>
+      <Footer />
+    </>
   );
 }
