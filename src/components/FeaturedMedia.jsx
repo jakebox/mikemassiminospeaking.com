@@ -31,24 +31,26 @@ function MoreContent() {
   const content = media.more_content;
 
   return (
-    <div className="md:flex gap-6 items-start">
-      {/* Left Side: List */}
-      <div className="md:w-2/3">
-        <ul className="list-disc ml-8">
-          {content.map((item, index) => (
-            <ContentLink key={index} bullet={item.bullet} link={item.link} />
-          ))}
-        </ul>
-      </div>
-
-      {/* Right Side: Image */}
-      <div className="md:w-1/3 flex justify-center mt-4 md:mt-0 mb-4 md:mb-0">
-        <img
-          src="assets/images/speaking_2.jpg"
-          className="w-auto h-[300px] object-cover rounded-md shadow-md"
-          alt="Visual Interest"
-        />
-      </div>
+    <div className="grid sm:grid-cols-2 sm:gap-x-12 lg:grid-cols-2 lg:gap-8 lg:gap-x-24 xl:grid-cols-3">
+      {content.map((item, index) => (
+        <div key={index} className="flex flex-col justify-between mb-6">
+          <a
+            href={item.link}
+            target="_blank"
+            className="text-center text-md lg:text-lg underline text-sky-300 hover:text-sky-200 mb-2"
+          >
+            {item.bullet}
+          </a>
+          <div className="flex items-center justify-center">
+            <iframe
+              src={item.player_url}
+              allowfullscreen="true"
+              loading="lazy"
+              className="aspect-video w-72 mb-3 sm:mb-5 sm:w-80 lg:w-96"
+            ></iframe>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

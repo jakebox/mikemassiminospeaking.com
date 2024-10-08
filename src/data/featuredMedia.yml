@@ -1,10 +1,10 @@
 newspaper_cards:
   - title: "Mike Massimino in the Wall Street Journal"
-    link: "https://www.wsj.com/science/space-astronomy/an-astronaut-with-bad-eyesight-and-a-fear-of-heights-bc226bf3?st=q2kxl1nnnv8wbem&reflink=desktopwebshare_permalink"
+    link: "documents/An Astronaut With 'Bad Eyesight and a Fear of Heights' - Wall Street Journal.pdf"
     image: "assets/images/print_media/wsj.png"
 
   - title: "The New York Times: How to Savor Like Like an Astronaut"
-    link: "https://www.nytimes.com/2024/02/02/well/live/life-gratitude-massimino.html"
+    link: "documents/How to Savor Life Like an Astronaut - New York Times.pdf"
     image: "assets/images/print_media/nyt.png"
 
   - title: "Fortune Magazine: This astronaut was rejected by NASA three times. Here are his secrets to perseverance"
@@ -27,18 +27,24 @@ book_cards:
     image: "assets/images/books/Moonshot Cover.jpg"
 
 more_content:
-  - bullet: "Mike's Media Highlights (David Letterman, ABC with David Muir, MSNBC with Brian Williams, Fox, Wired, & more)"
+  - bullet: "The First Tweet from Space / Saturday Night Live"
+    player_url: "https://player.vimeo.com/video/318129945"
+    link: "https://vimeo.com/318129945"
+  - bullet: "Mike's Media Highlights"
+    player_url: "https://player.vimeo.com/video/392017153"
     link: "https://vimeo.com/392017153"
   - bullet: "Featured Segment - Netflix’s Worn Stories"
-    link: "https://vimeo.com/648871234?share=copy"
+    player_url: "https://player.vimeo.com/video/648871234"
+    link: "https://vimeo.com/648871234"
   - bullet: "Life & Leadership Lessons From NASA Good Morning America"
+    player_url: "https://player.vimeo.com/video/902420368"
     link: "https://vimeo.com/902420368"
   - bullet: "The Daily Show"
-    link: "https://vimeo.com/894557041?share=copy"
+    player_url: "https://player.vimeo.com/video/894557041"
+    link: "https://vimeo.com/894557041"
   - bullet: "The Late Show with David Letterman"
-    link: "https://vimeo.com/817795347?share=copy"
-  - bullet: "NASA - Mike Massimino Becomes the First to ‘Tweet’ From Space"
-    link: "https://www.nasa.gov/missions/space-shuttle/sts-125/mike-massimino-becomes-the-first-to-tweet-from-space/"
+    player_url: "https://player.vimeo.com/video/817795347"
+    link: "https://vimeo.com/817795347"
 
 bbt:
   - title: "Howard Goes to Space"

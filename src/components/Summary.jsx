@@ -1,7 +1,7 @@
 import React from "react";
 
 const summaryText = [
-  "Mike Massimino is a four-time spacewalker on two missions to the Hubble Space Telescope, including the final Hubble servicing mission which has been called the most dangerous and complex mission in space shuttle history. But he is more than an astronaut – he is a recurring character on <i>The Big Bang Theory</i>, a bestselling author, an engineering professor, an MIT Ph.D, and a popular guest on news and late-night television programs.",
+  "Mike Massimino is a four-time spacewalker on two missions to the Hubble Space Telescope, including the final Hubble servicing mission which has been called the most dangerous and complex mission in space shuttle history. But he is more than an astronaut – he is a recurring character on <i>The Big Bang Theory</i>, a bestselling author, an engineering professor, an MIT Ph.D, and a popular guest on morning shows, news programs and late-night television.",
   "Mike uses humor and his unique storytelling ability to inspire audiences to identify the passion in their work, use teamwork and innovation to solve problems, provide leadership in the face of adversity and change, and never give up when pursuing a goal. Mike has written 3 books including his NY Times Bestselling memoir <i>Spaceman</i>, and his most recent book <i>Moonshot: A NASA Astronaut’s Guide to Achieving the Impossible</i> which distills stories and insights from NASA into an actionable guide for success in business and in life. Mike is clear, “We all have our own personal “moon shots” we’d like to take in life, but as mission control will tell you, doing one big thing really means getting a thousand little things right along the way.”",
 ];
 

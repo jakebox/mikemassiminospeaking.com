@@ -27,16 +27,30 @@ const videos = [
   },
 ];
 
-function VideoCard({ video }) {
-  const url = video.url + "?title=0&byline=0&portrait=0&sidedock=0";
+function VideosGrid() {
+  const content = videos;
+
   return (
-    <div className="">
-      <iframe src={url} allowfullscreen="true" className="w-80 md:w-96 aspect-video"></iframe>
-      <div className="bg-slate-800 w-80 md:w-96 px-3 py-2">
-        <h4 className="text-lg font-light mt-2 max-w-96 text-left opacity-100">
-          <a href={video.url}>{video.name}</a>
-        </h4>
-      </div>
+    <div className="grid sm:grid-cols-2 sm:gap-x-12 lg:grid-cols-2 lg:gap-8 lg:gap-x-24 xl:grid-cols-3">
+      {content.map((item, index) => (
+        <div key={index} className="flex flex-col justify-between mb-6">
+          <a
+            href={item.link}
+            target="_blank"
+            className="text-center text-md lg:text-lg underline text-sky-300 hover:text-sky-200 mb-2"
+          >
+            {item.name}
+          </a>
+          <div className="flex items-center justify-center">
+            <iframe
+              src={item.url}
+              allowfullscreen="true"
+              loading="lazy"
+              className="aspect-video w-72 mb-3 sm:mb-5 sm:w-80 lg:w-96"
+            ></iframe>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
@@ -49,14 +63,10 @@ const Videos = React.forwardRef((props, ref) => {
         <h2 className="font-exo text-5xl font-semibold mb-3 uppercase" id="videos">
           Mike Massimino Videos
         </h2>
-        <h3 className="text-2xl italic mb-6">Get a taste of what Mike Massimino brings to the stage</h3>
+        <h3 className="text-2xl italic mb-10">Get a taste of what Mike Massimino brings to the stage</h3>
 
-        {/* Video Grid */}
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:gap-12 justify-items-center 2xl:px-36">
-          {videos.map((video, index) => (
-            <VideoCard key={index} video={video} />
-          ))}
-        </div>
+        <VideosGrid />
+
       </div>
     </div>
   );
