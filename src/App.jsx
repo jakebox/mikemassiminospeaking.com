@@ -38,7 +38,9 @@ export default function App() {
         <SpeechDescriptions ref={speechDescriptionsRef} />
         <FeaturedMedia ref={featuredMediaRef} />
         <Testimonials ref={testimonialsRef} />
-        <p className="text-black text-center pb-5"><a href='/#'>Back to Top</a></p>
+        <p className="text-black text-center pb-5">
+          <button onClick={() => topRef.current.scrollIntoView()}>Back to Top</button>
+        </p>
       </div>
       <Footer />
     </>
