@@ -39,7 +39,7 @@ export default function App() {
         <FeaturedMedia ref={featuredMediaRef} />
         <Testimonials ref={testimonialsRef} />
         <p className="text-black text-center pb-5">
-          <button onClick={() => topRef.current.scrollIntoView()}>Back to Top</button>
+          <button onClick={() => window.scrollTo({ top: 0, left: 0, behavior: "smooth" })}>Back to Top</button>
         </p>
       </div>
       <Footer />
