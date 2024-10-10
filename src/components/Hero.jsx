@@ -29,22 +29,22 @@ function HeaderImages() {
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-center items-center">
       <img
         src="assets/images/hero/1_spacewalk_closeup.jpg"
-        className="w-full h-48 lg:h-64 object-cover rounded-lg shadow-md hover:scale-110"
+        className="w-full h-32 sm:h-48 lg:h-64 object-cover rounded-lg shadow-md hover:scale-110"
         alt="Mike in space"
       />
       <img
         src="assets/images/hero/2_speaking.jpg"
-        className="w-full h-48 lg:h-64 object-cover object-center rounded-lg shadow-md hover:scale-110"
+        className="w-full h-32 sm:h-48 lg:h-64 object-cover object-center rounded-lg shadow-md hover:scale-110"
         alt="Mike speaking"
       />
       <img
         src="assets/images/hero/3_letterman.jpg"
-        className="w-full h-48 lg:h-64 object-cover object-top rounded-lg shadow-md hover:scale-110"
+        className="w-full h-32 sm:h-48 lg:h-64 object-cover object-top rounded-lg shadow-md hover:scale-110"
         alt="Mike with Letterman"
       />
       <img
         src="assets/images/hero/4_moonshot_cover.png"
-        className="w-full h-48 lg:h-64 object-cover object-center rounded-lg shadow-md hover:scale-110"
+        className="w-full h-32 sm:h-48 lg:h-64 object-cover object-center rounded-lg shadow-md hover:scale-110"
         alt="Moonshot Cover"
       />
     </div>
